@@ -1,50 +1,49 @@
-# Vite & HeroUI Template
+# 🧠 vk-workshop/memes
 
-This is a template for creating applications using Vite and HeroUI (v2).
+Welcome to **vk-workshop/memes** – the ultimate playground for memes, madness, and maybe a bit of magic.
 
-[Try it on CodeSandbox](https://githubbox.com/frontio-ai/vite-template)
+Whether you're here to generate memes, browse them, or contribute to the meme revolution, you're in the right place.
 
-## Technologies Used
+---
 
-- [Vite](https://vitejs.dev/guide/)
-- [HeroUI](https://heroui.com)
-- [Tailwind CSS](https://tailwindcss.com)
-- [Tailwind Variants](https://tailwind-variants.org)
-- [TypeScript](https://www.typescriptlang.org)
-- [Framer Motion](https://www.framer.com/motion)
+## 🌐 Live Demo
 
-## How to Use
+You can preview the app here:  
+[Live Demo](https://memes-f9g3.onrender.com)
 
-To clone the project, run the following command:
+---
+
+## 🧰 Technologies Used
+
+- ⚡ **[Vite](https://vitejs.dev/)** – blazing-fast dev server & build tool  
+- ⚛ **React 18** – declarative UI framework  
+- 🎨 **TailwindCSS** – utility-first CSS for rapid UI development  
+- ✨ **HeroUI Components** – beautiful, ready-to-use UI elements
+- 🔍 **React Router DOM** – routing for SPA  
+- 🧪 **TypeScript** – type-safe development  
+- 🧹 **ESLint + Prettier** – clean, consistent code 
+
+---
+
+## 🚀 Features
+
+- 🖼 Meme generator with custom text & templates
+- 🎨 Easy template additions
+- ⚡️ API for programmatic meme access
+- 🌍 Multi-language support (because memes are universal)
+
+---
+
+## 🛠 Getting Started
+
+Clone the repo:
 
 ```bash
-git clone https://github.com/frontio-ai/vite-template.git
-```
-
-### Install dependencies
-
-You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
-
-```bash
+git clone https://github.com/vk-workshop/memes.git
+cd memes
 npm install
-```
-
-### Run the development server
-
-```bash
-npm run dev
-```
-
-### Setup pnpm (optional)
-
-If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
-
-```bash
-public-hoist-pattern[]=*@heroui/*
-```
-
-After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
-
-## License
-
-Licensed under the [MIT license](https://github.com/frontio-ai/vite-template/blob/main/LICENSE).
+# or
+yarn install
+npm start
+# or
+yarn start
